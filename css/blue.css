@@ -24,7 +24,7 @@ header { padding: 10px 0 15px 0; background-color:WhiteSmoke ; border-bottom:1px
 **********************************************
 */
 #call-to-action { background-color: Gainsboro; }
-#call-to-action h1 { font-family: 'Oswald', sans-serif; padding: 30px 0 20px 0; font-size: 2.5em; font-weight: bold; color: #191970; text-align: center; text-transform: uppercase; }
+#call-to-action h1 { font-family: 'Oswald', sans-serif; padding: 30px 0 20px 0; font-size: 2.5em; font-weight: bold; color: #191970; text-align: left; text-transform: uppercase; }
 #call-to-action h1 span { color: DarkOrange; }
 /* Subscribe */
 #call-to-action-form { width: 100%; background: url(../img/bg-of-banner.jpg) #171e30 no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 60px 0 40px 0; min-height: 450px; }
