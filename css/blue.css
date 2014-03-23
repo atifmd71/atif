@@ -17,6 +17,7 @@ header { padding: 10px 0 15px 0; background-color:WhiteSmoke ; border-bottom:1px
 .logo h1 { font-family: 'Oswald', sans-serif; font-weight: bold; color: #191970; font-size: 3em; padding: 10px 0 0 0; }
 .logo h1 span { color: DarkOrange; }
 .phone h2 { float:right; text-align:right; font-family: 'Oswald', sans-serif; font-weight: bold; font-size: 2em; color: DarkOrange; margin:0; padding: 22px 5px 5px 5px; }
+.phone p  {margin-top: 45px; float: right;}
 
 /*
 **********************************************
@@ -39,7 +40,7 @@ header { padding: 10px 0 15px 0; background-color:WhiteSmoke ; border-bottom:1px
 */
 #features { background-color: Gainsboro; padding: 25px 0 25px 0; }
 .panel-default > .panel-heading { background-color: DarkOrange; transition: all 0.2s ease-in-out 0.2s; -moz-transition: all 0.2s ease-in-out 0.2s; -webkit-transition: all 0.2s ease-in-out 0.2s; -o-transition: all 0.2s ease-in-out 0.2s; }
-.panel-heading h3 { font-family: 'Oswald', sans-serif; color: #ffffff; font-size: 1.5em; text-align: center; }
+.panel-heading h3 { font-family: 'Oswald', sans-serif; color: #ffffff; font-size: 1.5em; text-align: left; }
 
 /*
 **********************************************
@@ -51,7 +52,7 @@ header { padding: 10px 0 15px 0; background-color:WhiteSmoke ; border-bottom:1px
 .screenshots h2 { font-family: 'Oswald', sans-serif; font-size:14px; color:#777777; text-transform:uppercase; border-bottom:1px solid #dddddd; padding-bottom:1.4em; }
 .img-screenshots { margin-bottom: 2em; }
 .img-screenshots img { opacity:0.5;  transition: all 0.2s ease-in-out 0.2s; -ms-transition: all 0.2s ease-in-out 0.2s; -moz-transition: all 0.2s ease-in-out 0.2s; -webkit-transition: all 0.2s ease-in-out 0.2s; -o-transition: all 0.2s ease-in-out 0.2s; }
-.img-screenshots img:focus, .img-screenshots img:hover { opacity:1;  transition: all 0.2s ease-in-out 0.2s; -ms-transition: all 0.2s ease-in-out 0.2s; -moz-transition: all 0.2s ease-in-out 0.2s; -webkit-transition: all 0.2s ease-in-out 0.2s; -o-transition: all 0.2s ease-in-out 0.2s; }
+.img-screenshots img:focus, .img-screenshots img:hover { opacity:1;  transition: all 0.2s ease-in-out 0.2s; -ms-transition: all 0.2s ease-in-out 0.2s; -moz-transition: all 0.2s ease-in-out 0.2s; -webkit-transition: all 0.2s ease-in-out 0.2s; -o-transition: all 0.2s ease-in-out 0.2s;  }
 .nav > li > a:hover, .nav > li > a:focus { background-color: #f8f8f8; color: #333333; }
 .faq-cat-content { margin-top: 25px; }
 #faqs-screenshots .panel-title { font-family: 'Oswald', sans-serif; }
@@ -74,3 +75,21 @@ header { padding: 10px 0 15px 0; background-color:WhiteSmoke ; border-bottom:1px
 #purchase i { font-size: 2em; color: #99c4ee; }
 #purchase h2 { padding: 15px 0 5px 0; }
 .container-offer .btn { margin-top: 10px; }
+
+
+/*  Image big hover size  */
+
+
+#preview1{
+	position:absolute;
+
+	border:1px solid #ccc;
+	margin-left: -500px;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
+
+
+/*  Image big hover size  */

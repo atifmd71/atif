@@ -93,21 +93,22 @@ opacity: 1.0;
 04 Footer
 **********************************************
 */
-footer { padding: 10px 0 10px 0; background-color: #303030; color: #cfcfcf; }
+footer { padding: 10px 0 10px 0; background-color: #DBDBDB; color: #cfcfcf; }
 .items-footer { padding: 0 0 10px 0; }
 .items-footer p { font-family: 'Lato', sans-serif; font-size: 1em; }
-footer h3 { font-family: 'Oswald', sans-serif; font-size: 1.5em; padding-bottom: 15px; border-bottom: 1px solid #4f4f4f; }
-footer h4 { font-family: 'Lato', sans-serif; font-weight: bold; }
-footer ul li a, footer ul li a:link { color: #cfcfcf; font-family: 'Lato', sans-serif; }
-footer ul li a:focus, footer ul li a:hover { color: #ffffff; text-decoration: none !important; }
+footer h3 { font-family: 'Oswald', sans-serif; font-size: 1.5em; padding-bottom: 15px; border-bottom: 1px solid #4f4f4f; color:#777; }
+footer p  {color:#777;}
+footer h4 { font-family: 'Lato', sans-serif; font-weight: bold; color:#777; }
+footer ul li a, footer ul li a:link { color: #777; font-family: 'Lato', sans-serif; }
+footer ul li a:focus, footer ul li a:hover { color: #000; text-decoration: none !important; }
 .copyright { padding-top: 10px; border-top: 1px solid #4f4f4f; }
 .copyright-text p { margin-top: 27px; text-align: right; }
 .copyright ul li { margin-top: 10px; }
-.copyright a, .copyright a:link { color: #cfcfcf; }
-.copyright a:focus, .copyright a:hover { color: #ffffff; text-decoration: none !important; }
+.copyright a, .copyright a:link { color: #777; text-decoration:underline; }
+.copyright a:focus, .copyright a:hover { color: #000; text-decoration: none !important; }
 .social-icon { padding-top: 5px; padding-bottom: 5px; font-size:2em; }
-.social-icon ul li a, .social-icon ul li a:link {  color: #cfcfcf; }
-.social-icon ul li a:focus, .social-icon ul li a:hover {  color: #ffffff; }
+.social-icon ul li a, .social-icon ul li a:link {  color: #777; }
+.social-icon ul li a:focus, .social-icon ul li a:hover {  color: darkorange; }
 .icon-facebook { padding: 5px 12px 5px 12px; }
 .icon-twitter { padding: 5px 8px 5px 8px; }
 .icon-google-plus { padding: 5px 8px 5px 8px; }
